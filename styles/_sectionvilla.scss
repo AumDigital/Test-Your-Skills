@@ -1,7 +1,9 @@
-.container.justify-left {
+
+.container-layout.justify-left {
+  max-width: 75rem;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .container-villa {
