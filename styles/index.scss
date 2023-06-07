@@ -1,0 +1,10 @@
+@import "fonts";
+@import "colors";
+@import "button";
+@import "search";
+@import "nav";
+
+body {
+    font-family: $main-font;
+    color: $title-color;
+}
