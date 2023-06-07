@@ -1,4 +1,4 @@
-.container-sectionlayout {
+.container-layout {
   max-width: 75rem;
   width: 100%;
   display: flex;
@@ -23,6 +23,9 @@
 }
 
 & .container-info p {
+    font-family: $main-font;
+    color: $text-color;
+    
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
