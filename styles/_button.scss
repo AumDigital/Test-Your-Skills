@@ -13,7 +13,19 @@
   font-weight: 400;
   letter-spacing: 1.4px;
   font-size: 1rem;
+
   cursor: pointer;
+  transition: background-color 0.3s ease ease-in-out;
+
+  &:hover {
+    background: linear-gradient(
+      to bottom left,
+      $secondary-color 50%,
+      $primary-color 50%
+    );
+    color: white;
+    transform: scale(1.05);
+  }
 }
 
 .btn-search {
@@ -27,10 +39,18 @@
   font-weight: 400;
   letter-spacing: 1.4px;
   font-size: 1rem;
-  cursor: pointer;
-}
 
-.btn-search i {
-  font-size: 1.2rem;
-  margin-left: 0.4rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease ease-in-out;
+
+  &:hover {
+    color: white;
+    background-color: #ff6363;
+    transform: scale(1.05);
+  }
+
+  & i {
+    font-size: 1.2rem;
+    margin-left: 0.4rem;
+  }
 }
