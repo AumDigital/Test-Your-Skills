@@ -18,6 +18,7 @@ nav {
     color: $title-color;
     display: inline-block;
     transition: transform 0.3s ease-in-out;
+    padding: 1rem;
   }
 
   & .logo a:hover {
@@ -39,9 +40,22 @@ nav {
     text-decoration: none;
     margin-right: 2rem;
     color: $title-color;
+    text-align: center;
   }
 
   & .nav-item a:hover {
     transform: scale(1.1);
+  }
+}
+
+// MEDIA QUERIES //
+
+@media screen and (max-width: 35rem) {
+
+  .nav-container .nav-item a {
+    font-size: 0.6rem;
+  }
+  .nav-container .logo a {
+    font-size: 0.6rem;
   }
 }
