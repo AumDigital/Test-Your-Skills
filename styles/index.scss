@@ -42,3 +42,38 @@ body {
 }
 
 /// CASCADING BACKGROUND IMAGES ///
+
+.section {
+    background-image: url("../images/landing-landscape.jpg");
+    background-size: cover;
+    background-position: center;
+    display: block;
+
+    &-why {
+        background-image: url("../images/why.jpg");
+        background-size: cover;
+        background-position: center;
+        display: block;
+    }
+
+    &-villa {
+        background-image: url("../images/villa.jpg");
+        background-size: cover;
+        background-position: center;
+        display: block;
+    }
+
+    &-location {
+        background-image: url("../images/sunset.jpg");
+        background-size: cover;
+        background-position: center;
+        display: block;
+    }
+
+    &-reviews {
+        background-image: url("../images/hiking-footer.jpg");
+        background-size: cover;
+        background-position: center;
+        display: block;
+    }
+}
