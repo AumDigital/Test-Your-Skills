@@ -1,0 +1,36 @@
+.btn-book {
+  width: 14rem;
+  height: 4rem;
+  overflow: hidden;
+  background: linear-gradient(
+    to bottom left,
+    $primary-color 50%,
+    $secondary-color 50%
+  );
+  border: none;
+
+  color: $title-color;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-search {
+  width: 9.5rem;
+  height: 3rem;
+  overflow: hidden;
+  background: $primary-color;
+  border: none;
+
+  color: $title-color;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-search i {
+  font-size: 1.2rem;
+  margin-left: 0.4rem;
+}
